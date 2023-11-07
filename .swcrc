@@ -1,0 +1,30 @@
+{
+    "$schema": "https://json.schemastore.org/swcrc",
+    "module": {
+      "type": "es6"
+    },
+    "jsc": {
+      "parser": {
+        "syntax": "typescript",
+        "tsx": true,
+        "decorators": false
+      },
+      "target": "es2016",
+      "loose": true,
+      "externalHelpers": true,
+      "transform": {
+        "react": {
+          "runtime": "automatic"
+        }
+      },
+      "keepClassNames": false,
+      "minify": {
+        "compress": {
+          "unused": true
+        },
+        "mangle": true
+      }
+    },
+    "sourceMaps":true
+  }
+  
