@@ -8,7 +8,7 @@ export default function HomeComponent() {
           <div className="home-main">
             <div className="home-title">
               <h1>Full Stack Developer</h1>
-              <img src="src/assets/hand.png" alt="hand" />
+              <img src="/hand.png" alt="hand" />
               <p>
                 Hi, I am Mohit Singh. A Full Stack Javascript Developer based in
                 New Delhi, India.

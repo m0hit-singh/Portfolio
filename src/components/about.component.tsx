@@ -6,7 +6,7 @@ export default function AboutComponent() {
       <div className="container">
         <div className="content">
           <div className="img">
-            <img className="content-img" src="src/assets/work.jpg" alt="img" />
+            <img className="content-img" src="/work.jpg" alt="img" />
           </div>
           <div className="text">
             <h3>About Me</h3>
